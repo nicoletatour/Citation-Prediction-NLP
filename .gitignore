@@ -1,0 +1,93 @@
+# ---- OS / Editor junk ----
+.DS_Store
+Thumbs.db
+.desktop
+~$*
+*.swp
+*.swo
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+.coverage
+htmlcov/
+.cache/
+.mypy_cache/
+.pytest_cache/
+
+# ---- Virtual envs ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ---- IDE ----
+.vscode/
+.idea/
+*.iml
+
+# ---- Kaggle creds ----
+kaggle.json
+.kaggle/
+
+# ---- Data & artifacts (keep tiny readme placeholders) ----
+data*/
+data/**/*
+!data/README.md
+
+data_new*/
+data_new/**/*
+!data_new/README.md
+
+datasets*/
+datasets/**/*
+!datasets/README.md
+
+raw*/
+raw/**/*
+!raw/README.md
+
+# ---- Models / embeddings / checkpoints ----
+models/
+models/**/*
+embeddings/
+embeddings/**/*
+checkpoints/
+checkpoints/**/*
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.bin
+
+# ---- Arrays / cached features ----
+*.npy
+*.npz
+*.pkl
+*.joblib
+*.dump
+
+# ---- Submissions & large CSVs ----
+submissions/
+submissions/**/*
+submission*.csv
+
+# ---- Logs / temp ----
+logs/
+*.log
+tmp/
+.temp/
+*.tmp
